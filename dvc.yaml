@@ -1,5 +1,5 @@
 stages:
   foo:
-    cmd: echo 'testing testing' > data/foo.txt
+    cmd: mkdir data/foo.txt && echo 'testing testing' > data/foo.txt/chunk1.txt && echo 'more testing' > data/foo.txt/chunk2.txt
     outs:
     - data/foo.txt
