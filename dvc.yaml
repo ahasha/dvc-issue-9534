@@ -1,0 +1,5 @@
+stages:
+  foo:
+    cmd: echo 'testing testing' > data/foo.txt
+    outs:
+    - data/foo.txt

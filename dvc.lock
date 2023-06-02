@@ -1,0 +1,8 @@
+schema: '2.0'
+stages:
+  foo:
+    cmd: echo 'testing testing' > data/foo.txt
+    outs:
+    - path: data/foo.txt
+      md5: d68ba817e9aa3034436617554da0d2ad
+      size: 16
